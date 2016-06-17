@@ -10,3 +10,11 @@ $.ajax({
   dataType: 'jsonp',
   success: receivedForm
 });
+
+
+$(document).ready(function(){
+  $("#test").click(function(){
+    $("#test").html("This is Hello World by JQuery");
+  })
+
+});
